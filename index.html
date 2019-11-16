@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='Webデザイナーヤマダハナコ ポートフォリオ'>
+  <meta property='og:url' content='URL入る'>
+  <meta property='og:description' content='Webデザイナーヤマダハナコのポートフォリオです。'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="Webデザイナーヤマダハナコのポートフォリオです。" />
+  <title>Atsu | ポートフォリオ</title>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <!-- <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" /> -->
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="Library/modaal/modaal.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+
+<body>
+  <div id="wrapper">
+    <header id="header">
+      <div id="particles"></div>
+      <div class="contents-wrapper">
+        <div class="gradation">
+          <h1 class="logo">
+            <span class="logo-name">Portfolio</span>
+            <span class="logo-title">Atsu</span>
+            <span class="logo-desc">XR Engineer</span>
+          </h1>
+        </div>
+      </div>
+    </header>
+    <nav id="gnav">
+      <ul>
+        <!-- <li><a href="#feature">FEATURE</a></li> -->
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skill">SKILL</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <main id="contents">
+
+      <!-- <section class="section" id="feature">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">FEATURE</h2>
+            <p class="section-desc">
+              最新の制作実績です。
+            </p>
+          </div>
+          <div class="two-column-wrapper">
+            <div class="two-column-image">
+              <img src="img/feature/feature.jpg" alt="">
+            </div>
+            <div class="two-column-desc">
+              <p class="text">
+                作品タイトル：●●●●●<br> 担当：Design / Coding / WordPress<br> 制作期間：●ヶ月
+                <br> URL：
+                <a href="#">http://●●●.com</a><br>
+                <br> コメント：
+                <br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <section class="section" id="works">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">WORKS</h2>
+            <div class="section-desc">
+              <p class="text">
+                これまでの制作実績です。</p>
+            </div>
+          </div>
+          <div class="card-wrapper my-gallery">
+            <figure class="card">
+              <!-- <a href="#deer" data-size="980x668" class="card-image modal"> -->
+              <img src="img/works/thumb/ChemicalQuest.gif" class="card-image" alt="" />
+              <!-- </a> -->
+              <figcaption class="card-caption">
+                <p class="card-caption-title">Chemical Quest</p>
+                <p class="card-caption-info">Unity</p>
+                <p class="card-caption-info">原子を集めてパワーアップする3Dアクションゲーム。制作途中。</p>
+                <!-- <p class="card-caption-url"><a class="url-link modal" href="#deer">デモ動画</a></p> -->
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="#deer" data-size="980x668" class="card-image modal">
+                <img src="img/works/thumb/deer.gif" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">Deer</p>
+                <p class="card-caption-info">Unity / Shader</p>
+                <p class="card-caption-info">Shaderを使った光が鹿の形に集まるアニメーション。</p>
+                <p class="card-caption-url"><a class="url-link modal" href="#deer">デモ動画</a></p>
+                <div id="deer" style="display:none;">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/GWOJFTMuxb8" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="#megumin" data-size="980x668" class="card-image modal">
+                <img src="img/works/thumb/megumin.png" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">めぐみんのモデリング</p>
+                <p class="card-caption-info">Blender / VRoid / Unity</p>
+                <p class="card-caption-info">このすばの「めぐみん」の3Dモデルを作ってUnityで動かしました。</p>
+                <p class="card-caption-url"><a class="url-link modal" href="#megumin">デモ動画</a></p>
+                <div id="megumin" style="display:none;">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/OOq75uaMnkE" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <!-- <a href="img/works/work03.jpg" data-size="980x668" class="card-image"> -->
+              <img src="img/works/thumb/AMEDES_thumb.png" class="card-image" alt="" />
+              <!-- </a> -->
+              <figcaption class="card-caption">
+                <p class="card-caption-title">AMEDES</p>
+                <p class="card-caption-info">LINE API / Ruby on Rails / Heroku</p>
+                <p class="card-caption-info">毎朝7時に今日雨が降るかを教えてくれるLINEbotです。スクレイピング+LINE APIを活用しています。</p>
+                <!-- <p class="card-caption-url"><a class="url-link" href="＃" target="_blank">Link</a></p> -->
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="https://sway.office.com/o8Y7pdvOqUtuBNiB?ref=Link&loc=mysways" class="card-image"
+                target="_blank">
+                <img src="img/works/thumb/DroneCamo.gif" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">DroneAvatar</p>
+                <p class="card-caption-info">HoloLens / Unity / Optitrack</p>
+                <p class="card-caption-info">
+                  ドローンを他のアバターに変身させるHoloLensアプリケーション。モーションキャプチャシステムOptitrackでトラッキング、ドローンの自動運転プログラムはUnityで実装。</p>
+                <p class="card-caption-url"><a class="url-link"
+                    href="https://sway.office.com/o8Y7pdvOqUtuBNiB?ref=Link&loc=mysways" target="_blank">詳しい説明はこちら</a>
+                </p>
+
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="#arshooting"" data-size=" 980x668" class="card-image modal">
+                <img src="img/works/thumb/ARShooting.gif" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">AR Shooting Battle</p>
+                <p class="card-caption-info">OpenCV / OpenGL / glfw</p>
+                <p class="card-caption-info">OpenCVによるマーカー認識を利用した2人対戦用シューティングゲーム。</p>
+                <p class="card-caption-url"><a class="url-link modal" href="#arshooting" target="_blank">デモ動画</a></p>
+                <div id="arshooting" style="display:none;">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/e8R17m82y-8" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </figcaption>
+            </figure>
+            <figure class="card">
+              <a href="#snowman" data-size="980x668" class="card-image modal">
+                <img src="img/works/thumb/SnowmanShooting.gif" alt="" />
+              </a>
+              <figcaption class="card-caption">
+                <p class="card-caption-title">雪だるまシューティング</p>
+                <p class="card-caption-info">HoloLens / Unity</p>
+                <p class="card-caption-info">HoloLensを使ったシューティングゲーム。自分の部屋のあちこちに現れる雪だるまを撃ち抜くゲームです。</p>
+                <p class="card-caption-url"><a class="url-link modal" href="#snowman" target="_blank">デモ動画</a></p>
+                <div id="snowman" style="display:none;">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/kNoh2jkIhig" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+              </figcaption>
+            </figure>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">ABOUT</h2>
+            <p class="section-desc">
+              サクッと自己紹介。
+            </p>
+          </div>
+          <div class="two-column-wrapper">
+            <div class="two-column-image">
+              <img src="img/profile/profile.jpg" alt="">
+            </div>
+            <div class="two-column-desc">
+              <p class="text">
+                Unityが好きな大学生です。普段はUnityを使ってのゲーム開発やモデリング,
+                VR・AR開発など、浅く広く色々してます。大学ではARの研究をしています。Webに関しては2年半の実務経験があります。就活中。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="skill">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">SKILL</h2>
+            <p class="section-desc">
+              目安程度に。
+            </p>
+          </div>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/html.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">HTML/CSS</h3>
+                <div class="rating">
+                  <p class="rate rate4"></p>
+                </div>
+                <p class="text">実務経験あり。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/js.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">JavaScript</h3>
+                <div class="rating">
+                  <p class="rate rate3"></p>
+                </div>
+                <p class="text">実務経験あり。主にjQueryでWebサイトのフロントエンドを担当。ReactによるSPAでのアプリ開発経験あり。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/php.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">PHP</h3>
+                <div class="rating">
+                  <p class="rate rate4"></p>
+                </div>
+                <p class="text">実務経験あり。CakePHP, Laravelでのアプリ開発経験あり。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/rails.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Ruby</h3>
+                <div class="rating">
+                  <p class="rate rate2"></p>
+                </div>
+                <p class="text">Ruby on Railsでのアプリケーション開発経験あり。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/sql.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">SQL</h3>
+                <div class="rating">
+                  <p class="rate rate2"></p>
+                </div>
+                <p class="text">大体PHPやRubyのフレームワークでDBは操作するのでSQLは基本が分かる程度。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/aws.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">サーバー構築</h3>
+                <div class="rating">
+                  <p class="rate rate1"></p>
+                </div>
+                <p class="text">AWSでサーバー構築したことある。Dockerも触ったことはあるがよく理解してない。複雑な設定はさっぱり。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/unity.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Unity(C#)</h3>
+                <div class="rating">
+                  <p class="rate rate3"></p>
+                </div>
+                <p class="text">趣味でゲーム開発。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/cpp.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">C++</h3>
+                <div class="rating">
+                  <p class="rate rate2"></p>
+                </div>
+                <p class="text">競技プログラミングで使ってる。OpenCV, OpenGLでの開発経験あり。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/blender.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">モデリング</h3>
+                <div class="rating">
+                  <p class="rate rate2"></p>
+                </div>
+                <p class="text">VRoidで作ったキャラクターをBlenderでインポートして服や帽子などの装飾を作ったことがある。</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/shader.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Shader</h3>
+                <div class="rating">
+                  <p class="rate rate2"></p>
+                </div>
+                <p class="text">Unityでシェーダースクリプトを少し書いたことがある。VertexシェーダーとFragmentシェーダーの基本だけ分かる。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="contact">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title">CONTACT</h2>
+            <p class="section-desc">
+              Twitterは気軽にフォロー・DMどうぞ。
+            </p>
+          </div>
+          <div class="contact-wrapper">
+            <div class="contact-list">
+              <ul>
+                <!-- <li><a href="#"><img src="img/contact/icon_contact.png" alt=""><span
+                      class="contact-list-desc">フォーム</span></a></li> -->
+                <li><a href="https://twitter.com/atsmr30" target="_blank"><img src="img/contact/twitter.png"
+                      alt=""><span class="contact-list-desc">Twitter</span></a></li>
+                <!-- <li><a href="#" target="_blank"><img src="img/contact/icon_contact.png" alt=""><span
+                      class="contact-list-desc">Facebook</span></a></li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <ul class="bg-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <nav class="footer-link">
+          <ul>
+            <!-- <li><a href="#feature">FEATURE</a></li> -->
+            <li><a href="#works">WORKS</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skill">SKILL</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">Copyright&copy;Hanako Yamada. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+           It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script> -->
+  <script type='text/javascript' src="Library/modaal/modaal.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+  <script type='text/javascript' src="Library/particles/particles.min.js"></script>
+  <script type='text/javascript' src="Library/particles/setting.js"></script>
+</body>
+
+</html>
