@@ -317,6 +317,10 @@ li {
 　about
 ---------------------------------*/
 
+#about .two-column-wrapper {
+  justify-content: space-around;
+}
+
 #about .two-column-image {
   width: 33%;
   overflow: hidden;
@@ -324,7 +328,36 @@ li {
 }
 
 #about .two-column-desc {
-  width: 62%;
+  width: 40%;
+}
+
+.squere-list li {
+  font-size: 18px;
+}
+
+.squere-list li:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: .5em;
+  background: #f39ac7;
+  /* transform: rotate(45deg); */
+  vertical-align: -3px;
+}
+
+.squere-list li:hover:before {
+  animation: rot 2s linear infinite;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /*--------------------------------
@@ -532,6 +565,7 @@ li {
   width: 100%;
   height: 100%;
   z-index: 1;
+  pointer-events: none;
 }
 
 .bg-bubbles li {
