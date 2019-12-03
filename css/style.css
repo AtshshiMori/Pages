@@ -841,6 +841,10 @@ li {
     font-size: 10px;
   }
 
+  #header .gradation {
+    height: 101%;
+  }
+
   #gnav li {
     padding: 0 10px;
   }
