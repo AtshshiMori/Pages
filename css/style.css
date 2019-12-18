@@ -95,6 +95,7 @@ li {
 #header #particles {
   position: absolute;
   width: 100%;
+  height: 100%;
 }
 
 #header .contents-wrapper {
@@ -843,6 +844,7 @@ li {
 
   #header .gradation {
     height: 101%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 80%, #FFF)
   }
 
   #gnav li {
