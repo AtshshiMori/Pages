@@ -3,7 +3,7 @@ mathjax: true
 ---
 
 ###### tags: `Unity`
-# 【Procedural Animation】ロボットアームと触手のアニメーションデモ
+# 【Procedural Animation】ロボットアームと触手のアニメーションのデモ01
 Procedural Animationの練習用としてIKのアルゴリズムを実装したロボットアームと触手のアニメーションのデモです。
 ターゲットの位置に先端が来るように各関節の角度を勾配法で最適化しています。
 
