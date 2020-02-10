@@ -1,3 +1,7 @@
+---
+mathjax: true
+---
+
 ###### tags: `Unity`
 # 【Procedural Animation】ロボットアームと触手のアニメーションデモ
 Procedural Animationの練習用としてIKのアルゴリズムを実装したロボットアームと触手のアニメーションのデモです。
