@@ -157,7 +157,7 @@ public float PartialGradient(Transform target, List<float> angles, int i)
 ## 触手への応用
 さらに関節の数（ボーンの数）を増やせば触手のような動きを付けることができます。
 
-[![触手の動画](https://img.youtube.com/vi/aGcPfM8w-DY/0.jpg)](https://www.youtube.com/watch?v=aGcPfM8w-DY)
+[![触手の動画](https://img.youtube.com/vi/aGcPfM8w-DY/0.jpg)](https://www.youtube.com/watch?v=aGcPfM8w-DY){:target="_blank"}
 
 こちらはより触手らしい動きをさせるために、損失関数に新たに２つの指標を加えています。
 
