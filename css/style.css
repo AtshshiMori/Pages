@@ -554,6 +554,99 @@ li {
   text-align: center;
 }
 
+.modal-h1 {
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+.modal-h1 {
+  position: relative;
+  line-height: 1.4;
+  padding:0.25em 1em;
+  display: inline-block;
+}
+
+.modal-h1:before, .modal-h1:after { 
+  content:'';
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  display: inline-block;
+}
+
+.modal-h1:before {
+  border-left: solid 1px #f39ac7;
+  border-top: solid 1px #f39ac7;
+  top:0;
+  left: 0;
+}
+
+.modal-h1:after {
+  border-right: solid 1px #f39ac7;
+  border-bottom: solid 1px #f39ac7;
+  bottom:0;
+  right: 0;
+}
+
+/*--------------------------------
+ Button
+---------------------------------*/
+.button-flap::before,
+.button-flap::after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  content: '';
+}
+.button-flap,
+.button-flap::before,
+.button-flap::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.button-flap {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: inline-block;
+  width: 200px;
+  height: 54px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+
+  position: relative;
+  z-index: 2;
+  border: 2px solid #333;
+  color: #fff;
+  line-height: 50px;
+  -webkit-perspective: 300px;
+  perspective: 300px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.button-flap:hover {
+  color: #333;
+}
+.button-flap::after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-transform: rotateX(0);
+  transform: rotateX(0);
+}
+.button-flap:hover::after {
+  -webkit-transform: rotateX(-180deg);
+  transform: rotateX(-180deg);
+}
 
 /*--------------------------------
  BackGround Squre Animation
