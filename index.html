@@ -143,7 +143,7 @@
                 <img src="img/works/thumb/deer.png" alt="" />
               </a>
               <figcaption class="card-caption">
-                <p class="card-caption-title">Deer</p>
+                <p class="card-caption-title">光鹿〜シェーダアニメーション〜</p>
                 <p class="card-caption-info">Unity / Shader</p>
                 <p class="card-caption-info">Shaderを使った光が鹿の形に集まるアニメーション。</p>
                 <p class="card-caption-url"><a class="url-link modal" href="#deer">デモ動画</a></p>
@@ -178,6 +178,14 @@
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/OOq75uaMnkE" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
+                  <div class="modal-text">
+                    <p>このすばの「めぐみん」の3Dモデルを作ってUnityで動かしました。<br />
+                    モデリングをずっとしたかったので初挑戦。VRoidで体と顔・髪型は作り、服や帽子・靴をBlenderで作成しました。できたモデルはfbx形式でエクスポートし、Unityにインポートして動かしました。<br />
+                    今後の予定としてVRでデプロイしたいと思っています。<br />
+                    <br />
+                    初心者でもこれだけできるので、VRoid+Blenderで自分の好きなキャラを作る方法はおすすめです。制作期間は大体１ヶ月弱。（Blender練習のためのてんとう虫チュートリアルを含めて）
+                    </p>
+                  </div>
                 </div>
               </figcaption>
             </figure>
@@ -193,19 +201,19 @@
               </figcaption>
             </figure>
             <figure class="card">
-              <a href="https://sway.office.com/o8Y7pdvOqUtuBNiB?ref=Link&loc=mysways" class="card-image"
-                target="_blank">
+              <a href="#DroneCamo" data-size="980x668" class="card-image modal">
                 <img src="img/works/thumb/DroneCamo.png" alt="" />
               </a>
               <figcaption class="card-caption">
-                <p class="card-caption-title">DroneAvatar</p>
+                <p class="card-caption-title">DroneCamo</p>
                 <p class="card-caption-info">HoloLens / Unity / Optitrack</p>
                 <p class="card-caption-info">
                   ドローンを他のアバターに変身させるHoloLensアプリケーション。モーションキャプチャシステムOptitrackでトラッキング、ドローンの自動運転プログラムはUnityで実装。</p>
-                <p class="card-caption-url"><a class="url-link"
-                    href="https://sway.office.com/o8Y7pdvOqUtuBNiB?ref=Link&loc=mysways" target="_blank">詳しい説明はこちら</a>
-                </p>
-
+                <p class="card-caption-url"><a class="url-link modal" href="#DroneCamo">詳細</a></p>
+                <div id="DroneCamo" style="display:none;">
+                  <div><p class="modal-h1">説明</p></div>
+                  <iframe width="760px" height="500px" src="https://sway.office.com/s/o8Y7pdvOqUtuBNiB/embed" frameborder="0" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
+                </div>
               </figcaption>
             </figure>
             <figure class="card">
@@ -222,6 +230,12 @@
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/e8R17m82y-8" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
+                  <div class="modal-text"><p>ARのシューティングゲームのデモ動画です。マーカーの位置にバーが表示されるので片手でマーカーを実際に操作します。キー入力で弾を発射し、当てれば相手のライフが１つ減ります。真ん中のボムに弾を当ててしまうと自分のライフが減ります。<br />
+                    <br />
+                    ・4人チームで制作<br />
+                    ・マーカーの姿勢推定はOpenCVを利用<br />
+                    ・グラフィックの描画はOpenGLを利用</p>
+                  </div>
                 </div>
               </figcaption>
             </figure>
@@ -239,6 +253,7 @@
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/kNoh2jkIhig" frameborder="0"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
+                  <div class="modal-text"><p>雪だるまを打つHoloLensゲームのデモ動画です。部屋の形状をHoloLensが認識し、部屋のあちこちに雪だるまが現れます。指のジェスチャーでAirTapをすると向いている方向に球が発射され雪だるまを倒すことができます。</p></div>
                 </div>
               </figcaption>
             </figure>
