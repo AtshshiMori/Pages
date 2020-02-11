@@ -13,7 +13,7 @@ FKはForward Kinematicsの略で、IKはInversed Kinematicsの略です。
 今回実装したロボットアームを例に紹介します。
 (↓こちらはYouTubeへのリンクになっているので動画を確認ください。)
 
-[![ロボットアームの動画](https://img.youtube.com/vi/a5x2zb_q-as/0.jpg)](https://www.youtube.com/watch?v=a5x2zb_q-as)
+[![ロボットアームの動画](https://img.youtube.com/vi/a5x2zb_q-as/0.jpg)](https://www.youtube.com/watch?v=a5x2zb_q-as){:target="_blank"}
 
 このロボットアームは４つの関節から構成されています。FKはこの４つの関節のうち根元側から順番に角度を決定していき、最終的に先端のアーム部分の座標を求める方法です。
 
