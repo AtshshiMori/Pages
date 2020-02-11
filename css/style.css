@@ -588,6 +588,13 @@ li {
   right: 0;
 }
 
+.modal-text p {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 30px;
+}
+
 /*--------------------------------
  Button
 ---------------------------------*/
@@ -921,6 +928,7 @@ li {
 
   #header {
     height: 100vh;
+    background-position: center;
   }
 
   #header .logo-title {
@@ -1086,4 +1094,20 @@ li {
     padding: 0 10px;
     margin-bottom: 5px;
   }
+
+  /*---------------------------
+   modaal
+   ----------------------------*/
+   .modaal-outer-wrapper {
+     display: unset;
+   }
+
+   .modaal-inner-wrapper {
+     display: unset;
+   }
+
+   iframe {
+     width: 100%;
+     height: auto;
+   }
 }
