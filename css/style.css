@@ -392,13 +392,21 @@ li {
   justify-content: space-between;
 }
 
+#skill .icon-wrapper {
+  height: 100%;
+  text-align: center;
+}
+
+#skill .skill-icon {
+  position: absolute;
+}
 /* #skill .card:first-child {
   flex-basis: 100%;
 } */
-
-#skill .skill-icon {
+/* flexで並べてたものは削除20210524 */
+/* #skill .skill-icon {
   flex-basis: 75px;
-}
+} */
 
 #skill .skill-icon img {
   width: 75px;
@@ -1026,8 +1034,15 @@ li {
     flex-basis: 100%;
   }
 
-  #skill .skill-icon {
+  #skill .icon-wrapper {
+    height: 100%;
+  }
+  /* flexで並べてたものは削除20210524 */
+  /* #skill .skill-icon {
     flex-basis: 45px;
+  } */
+  #skill .skill-icon {
+    position: absolute;
   }
 
   #skill .skill-icon img {
