@@ -2,6 +2,8 @@ const canvasW = 800;
 const canvasH = 800;
 const fr = 30;
 
+
+
 const imageNames = [
     "html_100.png",
     "js_100.png",
@@ -28,25 +30,35 @@ function preload() {
 
 function setup(){
     // 描画領域のセットアップ
-    let canvas = createCanvas(canvasW, canvasH);  //サイズ: 800px × 500px
+    let canvasWidth = constrain(windowWidth - 30, 0, canvasW);
+    let canvas = createCanvas(canvasWidth, canvasWidth);  //サイズ: 800px × 500px
     canvas.parent("skillCanvas");
     frameRate(fr);
     setupImg();
+}
+
+function windowResized() {
+    let canvasWidth = constrain(windowWidth - 20, 0, canvasW);
+    resizeCanvas(canvasWidth, canvasWidth);
 }
   
 function draw(){
     clear();
     background(220, 0);             // transparent
     drawImgs();
-    // image(img, 0, 0, 75, 75);
-
-    // 描画
 }
 
 function setupImg()
 {
     icons.forEach(icon => {
-        icon.img.resize(100, 100);
+        if(width < 767)
+        {
+            icon.img.resize(50, 50);
+        }
+        else
+        {
+            icon.img.resize(100, 100);
+        }
     });
 }
 
@@ -55,8 +67,8 @@ const rotateSpeed = 5;
 const t = 0.2;
 function drawImgs()
 {
-    const center = new Position(canvasW/2, canvasH/2);
-    const r = (canvasH / 2) - 100;
+    const center = new Position(width/2, height/2);
+    const r = (height / 2) - 100;
     const radian = 2 * PI/imageNames.length;
     offsetRadian += 2 * PI * rotateSpeed/360 * deltaTime / 1000;
 
